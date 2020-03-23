@@ -15,19 +15,27 @@
                 <Setter Property="Margin" Value="12"/>
                 <Setter Property="FontSize" Value="21"/>
             </Style>
-            <Style TargetType="TextBox"  >
+            <Style TargetType="TextBox" x:Key="txtboxBaseStyle">
                 <Setter Property="Margin" Value="12"/>
                 <Setter Property="FontSize" Value="21"/>
                 <Setter Property="Width" Value="100"/>
             </Style>
+            <Style TargetType="TextBox" x:Key="txtboxErrStyle" BasedOn="{StaticResource txtboxBaseStyle}">
+                <Style.Triggers>
+                    <Trigger Property="Validation.HasError" Value="True">
+                        <Setter Property="ToolTip"  Value="{Binding RelativeSource={RelativeSource Self}, 
+                                                Path=(Validation.Errors)[0].ErrorContent}" />                       
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
         </StackPanel.Resources> 
         <StackPanel Orientation="Horizontal" >
             <TextBlock Text="姓名"/>
-            <TextBox Text="{Binding Name}"/>
+            <TextBox Text="{Binding Name}" Style="{StaticResource txtboxBaseStyle}"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" >
             <TextBlock Text="年齡"/>
-            <TextBox x:Name="txt">
+            <TextBox Style="{ StaticResource txtboxErrStyle}">
                 <TextBox.Text>
                     <Binding Path="Age" UpdateSourceTrigger="PropertyChanged" Mode="TwoWay"  >
                         <Binding.ValidationRules>
