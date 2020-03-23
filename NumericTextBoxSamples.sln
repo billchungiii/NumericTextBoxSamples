@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingLibrary", "BindingLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericTextBoxSample002", "NumericTextBoxSample002\NumericTextBoxSample002.csproj", "{A49BAE68-5EA1-4C42-BE8D-BC155CAB7F6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericTextBoxSample003", "NumericTextBoxSample003\NumericTextBoxSample003.csproj", "{2610C725-0BB1-4EF4-934E-C76F46F069AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A49BAE68-5EA1-4C42-BE8D-BC155CAB7F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A49BAE68-5EA1-4C42-BE8D-BC155CAB7F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A49BAE68-5EA1-4C42-BE8D-BC155CAB7F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2610C725-0BB1-4EF4-934E-C76F46F069AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2610C725-0BB1-4EF4-934E-C76F46F069AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2610C725-0BB1-4EF4-934E-C76F46F069AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2610C725-0BB1-4EF4-934E-C76F46F069AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
