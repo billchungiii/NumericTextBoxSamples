@@ -22,11 +22,11 @@
             </Style>            
         </StackPanel.Resources> 
         <StackPanel Orientation="Horizontal" >
-            <TextBlock Text="姓名"/>
+            <TextBlock Text="Name"/>
             <TextBox Text="{Binding Name}"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" >
-            <TextBlock Text="年齡"/>
+            <TextBlock Text="Age"/>
             <TextBox>
                 <TextBox.Text>
                     <Binding Path="Age" UpdateSourceTrigger="PropertyChanged" Mode="TwoWay"  >
