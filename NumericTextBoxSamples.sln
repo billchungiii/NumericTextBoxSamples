@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29911.84
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericTextBoxSample001", "NumericTextBoxSample001\NumericTextBoxSample001.csproj", "{6FC1FD94-90E3-4AA8-A45D-6FF48DEF6188}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericTextBoxSample002", "NumericTextBoxSample002\NumericTextBoxSample002.csproj", "{A49BAE68-5EA1-4C42-BE8D-BC155CAB7F6E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericTextBoxSample003", "NumericTextBoxSample003\NumericTextBoxSample003.csproj", "{2610C725-0BB1-4EF4-934E-C76F46F069AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericTextBoxSample004", "NumericTextBoxSample004\NumericTextBoxSample004.csproj", "{E2A9FBEB-4E0B-4FE8-84B0-CAD8B9ECD468}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2610C725-0BB1-4EF4-934E-C76F46F069AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2610C725-0BB1-4EF4-934E-C76F46F069AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2610C725-0BB1-4EF4-934E-C76F46F069AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A9FBEB-4E0B-4FE8-84B0-CAD8B9ECD468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A9FBEB-4E0B-4FE8-84B0-CAD8B9ECD468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A9FBEB-4E0B-4FE8-84B0-CAD8B9ECD468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A9FBEB-4E0B-4FE8-84B0-CAD8B9ECD468}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
